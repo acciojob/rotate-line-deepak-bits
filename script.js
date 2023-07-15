@@ -4,7 +4,10 @@ div.id = 'line';
 
 div.style.width = '200px';
 div.style.height = '2px';
-div.style.backgroundColor = 'black';
+div.style.backgroundColor = 'rgb(0, 0, 0)';
+div.style.position = 'absolute';
+div.style.top = '40%';
+div.style.left = '40%';
 document.body.appendChild(div);
 
 let i = 0;
